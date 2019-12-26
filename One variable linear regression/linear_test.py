@@ -1,8 +1,6 @@
 import torch
 import pandas as pd
 
-data = pd.read_csv('linear_data.csv', delimiter=',')
-torch_data = torch.tensor(data.values)
 train = pd.read_csv('linear_test.csv', delimiter=',')
 torch_train = torch.tensor(train.values)
 
